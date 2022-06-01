@@ -12,11 +12,37 @@ body {
 
 .container{
     margin: 25px auto;
-    width: 400px;
+    width: 700px;
 }
 
-h2 {
+.total-transactions-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+.total-transactions-container > div {
+    margin: auto;
+    text-align: center;
+}
+
+h1 {
     font-size: 3.1em;
     margin-bottom: 0;
     border-bottom: 2px solid #676767;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.4em;
+    margin-bottom: 0;
+    border-bottom: 2px solid #676767;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+p {
+    font-size: 1.3em;
 }

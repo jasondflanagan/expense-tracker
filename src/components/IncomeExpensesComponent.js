@@ -5,15 +5,11 @@ export const IncomeExpenses = () => {
   const {transactions} = useContext (GlobalContext);
     
   return (
-    <div className="inc-exp-container">
-    <div>
-      <h3>Income</h3>
-      <p>+$0.00</p>
+    <div className="total-transactions-container">
+        <h3>Income</h3>
+        <p>+$0.00</p> 
+        <h3>Expense</h3>
+        <p>-$0.00</p>
     </div>
-    <div>
-      <h3>Expense</h3>
-      <p>-$0.00</p>
-    </div>
-  </div>
   )
 }
